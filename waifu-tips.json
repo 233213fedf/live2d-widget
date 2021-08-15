@@ -84,22 +84,22 @@
 		"selector": "a[href^='/categories/']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
-		"selector": ".post-title-link",
+		"selector": ".post-list-thumb .post-title h3",
 		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
 	}, {
-		"selector": "a[rel='contents']",
+		"selector": "",
 		"text": ["点击来阅读全文哦。"]
 	}, {
-		"selector": "a[itemprop='discussionUrl']",
+		"selector": ".post-meta a",
 		"text": ["要去看看评论吗？"]
 	}, {
 		"selector": ".beian a",
 		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
 	}, {
-		"selector": ".container a[href^='http'], .nav-link .nav-text",
+		"selector": ".entry-content a",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": "#moblieGoTop",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
